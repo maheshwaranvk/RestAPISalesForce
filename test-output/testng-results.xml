@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5803" started-at="2022-02-05T18:05:05 IST" finished-at="2022-02-05T18:05:11 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5803" started-at="2022-02-05T18:05:05 IST" finished-at="2022-02-05T18:05:11 IST">
+      <class name="week6.day1.GetAllObjects">
+        <test-method status="PASS" signature="getObjects()[pri:0, instance:week6.day1.GetAllObjects@4e718207]" name="getObjects" duration-ms="2569" started-at="2022-02-05T18:05:05 IST" finished-at="2022-02-05T18:05:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getObjects -->
+      </class> <!-- week6.day1.GetAllObjects -->
+      <class name="week6.day1.UpdateResource">
+        <test-method status="PASS" signature="updateTheResource()[pri:0, instance:week6.day1.UpdateResource@32eebfca]" name="updateTheResource" duration-ms="1220" started-at="2022-02-05T18:05:09 IST" depends-on-methods="week6.day1.CreateNewResource.createResource" finished-at="2022-02-05T18:05:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTheResource -->
+      </class> <!-- week6.day1.UpdateResource -->
+      <class name="week6.day1.DeleteNewResource">
+        <test-method status="PASS" signature="setUpSalesForce()[pri:0, instance:week6.day1.DeleteNewResource@553a3d88]" name="setUpSalesForce" is-config="true" duration-ms="241" started-at="2022-02-05T18:05:05 IST" finished-at="2022-02-05T18:05:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSalesForce -->
+        <test-method status="PASS" signature="deleteResource()[pri:0, instance:week6.day1.DeleteNewResource@553a3d88]" name="deleteResource" duration-ms="960" started-at="2022-02-05T18:05:10 IST" depends-on-methods="week6.day1.UpdateResource.updateTheResource" finished-at="2022-02-05T18:05:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteResource -->
+      </class> <!-- week6.day1.DeleteNewResource -->
+      <class name="week6.day1.CreateNewResource">
+        <test-method status="PASS" signature="createResource()[pri:0, instance:week6.day1.CreateNewResource@1d371b2d]" name="createResource" duration-ms="1031" started-at="2022-02-05T18:05:08 IST" depends-on-methods="week6.day1.GetAllObjects.getObjects" finished-at="2022-02-05T18:05:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createResource -->
+      </class> <!-- week6.day1.CreateNewResource -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
